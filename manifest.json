@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Focussed.",
+  "version": "0.1",
+  "chrome_url_overrides": {
+    "newtab": "./html/landing.html"
+  },
+  "permissions": ["storage"],
+  "browser_action": {
+    "default_icon": "./assets/favicon.png"
+  },
+  "icons": { "16": "./assets/favicon.png",
+           "48": "./assets/icon48.png",
+          "128": "./assets/icon128.png" }
+}
